@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Exercicios02 {
 	
+	// exercicio 1 - dia 2
 	public static void MediaAritmetica() {
 		Scanner input = new Scanner(System.in);
 		int [] notas = new int[4];
@@ -17,6 +18,7 @@ public class Exercicios02 {
 		System.out.println("A média é: " + media);
 	}
 	
+	// exercicio 2 - dia 2
 	public static void NumeroSucessor() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Digite um numero entre 0 e 60: ");
@@ -34,6 +36,7 @@ public class Exercicios02 {
 		}
 	}
 	
+	// exercicio 3 - dia 2
 	public static void FromFahrenheitToCelsius() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Informe a temperatura em Fahrenheit: ");
@@ -43,6 +46,7 @@ public class Exercicios02 {
 		System.out.println("A temperatura em Celsius é: " + temperaturaEmCelsius);
 	}
 
+	// exercicio 4 - dia 2
 	public static void GanhadoresDoConcurso() {
 		double valorTotal = 780.000;
 		double primeiroGanhador = valorTotal * (0.46);
@@ -54,6 +58,7 @@ public class Exercicios02 {
 		System.out.println("O valor do terceiro ganhador foi: " + terceiroGanhador);
 	}
 	
+	// exercicio 5 - dia 2
 	public static void ChecadorDePalindromo() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Informe a palavra para checar se é palindromo: ");
@@ -72,6 +77,7 @@ public class Exercicios02 {
 		
 	}
 	
+	// exercicio 6 - dia 2
 	public static void SaltoEmDistancia() {
 		
 		Scanner inputString = new Scanner(System.in);
@@ -109,12 +115,12 @@ public class Exercicios02 {
 }
 	
 	public static void main(String[] args) {
-		//new Exercicios02().MediaAritmetica();
-		//new Exercicios02().NumeroSucessor();
-		//new Exercicios02().FromFahrenheitToCelsius();
-		//new Exercicios02().GanhadoresDoConcurso();
-		//new Exercicios02().ChecadorDePalindromo();
-		//new Exercicios02().SaltoEmDistancia();
+		new Exercicios02().MediaAritmetica();
+		new Exercicios02().NumeroSucessor();
+		new Exercicios02().FromFahrenheitToCelsius();
+		new Exercicios02().GanhadoresDoConcurso();
+		new Exercicios02().ChecadorDePalindromo();
+		new Exercicios02().SaltoEmDistancia();
 	}
 
 }

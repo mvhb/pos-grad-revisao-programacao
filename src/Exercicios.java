@@ -1,6 +1,7 @@
 
 public class Exercicios {
 	
+	// exercicio 1 - letra a
 	public static void FromMinutesToSeconds() {
 		int minutes = 42;
 		int seconds = 42;
@@ -11,6 +12,7 @@ public class Exercicios {
 		System.out.println("Total seconds is equal to: " + totalSeconds);
 	}
 	
+	// exercicio 1 - letra b
 	public static void FromKmToMiles() {
 		int km = 10;
 		double converterKmToMiles = 1.61;
@@ -19,6 +21,7 @@ public class Exercicios {
 		System.out.println("Total miles is equal to: " + miles);
 	}
 	
+	// exercicio 1 - letra c
 	public static void PaceOnMiles() {
 		int km = 10;
 		int minutes = 42;
@@ -36,7 +39,8 @@ public class Exercicios {
 		System.out.println("Your pace on miles/hours is: " + (miles / minutesToHours));
 	}
 	
-	public static void Question2() {
+	// exercicio 2
+	public static void TotalCostBooks() {
 		double bookValue = 24.95;
 		double discount = 0.4;
 		int transportUniqueCost = 3;
@@ -52,7 +56,7 @@ public class Exercicios {
 		new Exercicios().FromMinutesToSeconds();
 		new Exercicios().FromKmToMiles();
 		new Exercicios().PaceOnMiles();
-		new Exercicios().Question2();
+		new Exercicios().TotalCostBooks();
 	}
 	
 }
