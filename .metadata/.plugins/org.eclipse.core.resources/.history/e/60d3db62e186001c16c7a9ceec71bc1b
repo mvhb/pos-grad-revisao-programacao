@@ -1,0 +1,66 @@
+
+public class DataDeNascimento {
+	
+	private int dia;
+	private int mes;
+	private int ano;
+
+	public int getDia() {
+		return dia;
+	}
+	public void setDia(int dia) {
+		this.dia = dia;
+	}
+	public String getMes() {
+		
+		String mesDescrito = "Mês inválido";
+		
+		if(this.mes == 1) {
+			mesDescrito = "Janeiro";
+		}
+		else if(this.mes == 2) {
+			mesDescrito = "Fevereiro";
+		}
+		else if(this.mes == 3) {
+			mesDescrito = "Março";
+		}
+		else if(this.mes == 4) {
+			mesDescrito = "Maio";
+		}
+		else if(this.mes == 5) {
+			mesDescrito = "Abril";
+		}
+		else if(this.mes == 6) {
+			mesDescrito = "Junho";
+		}
+		else if(this.mes == 7) {
+			mesDescrito = "Julho";
+		}
+		else if(this.mes == 8) {
+			mesDescrito = "Agosto";
+		}
+		else if(this.mes == 9) {
+			mesDescrito = "Setembro";
+		}
+		else if(this.mes == 10) {
+			mesDescrito = "Outubro";
+		}
+		else if(this.mes == 11) {
+			mesDescrito = "Novembro";
+		}
+		else if(this.mes == 12) {
+			mesDescrito = "Dezembro";
+		}
+		return mesDescrito;
+	}
+	
+	public void setMes(int mes) {
+		this.mes = mes;
+	}
+	public int getAno() {
+		return ano;
+	}
+	public void setAno(int ano) {
+		this.ano = ano;
+	}
+}

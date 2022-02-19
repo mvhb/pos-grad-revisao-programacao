@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Exercicios03 {
+
+	public static void main (String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Digite a data de nascimento: ");
+		String dataDeNascimento = input.nextLine();
+		String mes = String.valueOf(dataDeNascimento.charAt(3)) + String.valueOf(dataDeNascimento.charAt(4));
+		
+		System.out.println(mes);
+	}
+}

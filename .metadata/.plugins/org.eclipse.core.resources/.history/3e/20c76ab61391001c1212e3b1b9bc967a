@@ -1,0 +1,37 @@
+
+public class Cachorro extends Animal{
+
+	//atributos
+	private String acessorios;
+	
+	//construtor
+	public Cachorro() {
+		//opção 1
+		//super();
+		
+		//opção 2
+		this.acessorios = "";
+		//or setAcessorios("");
+		setCor("azul");
+		setPeso(1.1);
+		setRaca("aa");
+		setAltura(1.3);
+	}
+	
+	public String getAcessorios() {
+		return acessorios;
+	}
+
+	public void setAcessorios(String acessorios) {
+		this.acessorios = acessorios;
+	}
+	
+	//metodos
+	public void latir() {
+		System.out.println("au au");
+	};
+
+	public void escrever() {
+		System.out.println("turma johnson baby");
+	};
+}

@@ -1,0 +1,29 @@
+
+public class Gato extends Animal{
+
+	//atributos
+		private String temperamento;
+		private String corRabo;
+		
+	//construtor
+		public Gato() {
+			this.temperamento = "normal";
+			this.corRabo = "cinza";
+			
+		}
+	
+	//métodos
+		public String getTemperamento() {
+			return temperamento;
+		}
+		public void setTemperamento(String temperamento) {
+			this.temperamento = temperamento;
+		}
+		public String getCorRabo() {
+			return corRabo;
+		}
+		public void setCorRabo(String corRabo) {
+			this.corRabo = corRabo;
+		}
+			
+}

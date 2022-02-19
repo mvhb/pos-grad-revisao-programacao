@@ -1,0 +1,40 @@
+
+public class Exercicios {
+	
+	public static void FromMinutesToSeconds() {
+		int minutes = 42;
+		int seconds = 42;
+		int totalSeconds;
+		
+		totalSeconds = (minutes * 60) + seconds;
+		
+		System.out.println("Total seconds is equal to: " + totalSeconds);
+	}
+	
+	public static void FromKmToMiles() {
+		int km = 10;
+		double converterKmToMiles = 1.61;
+		
+		double miles = km / converterKmToMiles; 
+		System.out.println("Total miles is equal to: " + miles);
+	}
+	
+	public static void PaceOnMiles() {
+		int km = 10;
+		int minutes = 42;
+		int seconds = 42;
+		
+		double converterKmToMiles = 1.61;
+		double secondsToMinute = seconds / 60; 
+		double miles = km / converterKmToMiles;
+		
+		System.out.println("You pace on miles/minutes is: " + (miles / (minutes + secondsToMinute)));
+	}
+	
+	public static void main(String[] args) {
+		new Exercicios().FromMinutesToSeconds();
+		new Exercicios().FromKmToMiles();
+		new Exercicios().PaceOnMiles();
+	}
+	
+}

@@ -1,0 +1,41 @@
+
+public class Cachorro {
+
+	//atributos
+	private String cor;
+	private double peso;
+	private String raca;
+	private String acessorios;
+	private double altura;
+	
+	//gets and sets
+	public void setCor(String cor){
+		
+		if(cor.equals("")) {
+			System.out.println("me ajude a te ajudar");
+		}
+		else {
+			this.cor = cor;	
+		}
+	}
+	
+	public String getCor(){
+		return this.cor;
+	}
+	
+	
+	//metodos
+	public void latir() {
+		System.out.println("au au");
+	};
+
+	public void escrever() {
+		System.out.println("turma johnson baby");
+	};
+	public void morder(){
+		System.out.println("vacilou, levou");
+	}
+	public void correr(){
+		System.out.println("run run run");
+	}
+}
